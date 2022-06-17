@@ -1,0 +1,30 @@
+:root{
+    --gray: rgb(152, 152, 177);
+    --navy: rgb(7, 7, 80);
+}
+body {
+    background-color: var(--gray);
+}
+header h1 {
+    display: inline;
+}
+header {
+    background-color: navy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+}
+header a{
+    text-decoration: none;
+}
+header nav{
+    margin: 0;;
+    text-align: center;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li a{
+    margin: 0 50px;
+    color: black;
+    font-size: 20px;
+}
