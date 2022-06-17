@@ -8,10 +8,14 @@ body {
 header h1 {
     display: inline;
     color: var(--navy);
+    padding-left: 30px;
+    margin: revert;
 }
 header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: right;
+    display: block;
+    height: 100%;
     
 }
 header a{
@@ -29,12 +33,37 @@ header nav ul li a{
     color: var(--navy);
     font-size: 20px;
 }
+.me{
+    flex-wrap: nowrap;
+    height: 100px;
+    float: left;
+    clip-path: circle();
+    display: inline;
+
+
+}
 .hero{
-    width: 100%;
-    margin-top: -5px;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 61px;
     height: 100px;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtAfUT-3mf8lr7Vehfx3PKMWmCeUPeYs9ZcA&usqp=CAU");
     color: silver;
     text-align: center;
     padding-top: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about-me{
+    color: var(--navy);
+}
+.font{
+    font-size: 35px;
+    color: var(--navy);
+}
+section li{
+    display: inline;
+    margin: 0 100px;
+    text-decoration: underline;
+    justify-content: center;
+
 }
